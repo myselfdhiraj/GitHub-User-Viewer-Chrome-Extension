@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Profile Viewer",
+    "description": "View github user profile using given username",
+    "version": "1.0",
+    "action": {
+      "default_popup": "Popup.html",
+      "default_icon": "ext_icon.png"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+      }
+  }

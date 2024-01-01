@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 450px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 40px;
+}
+.input-box{
+    margin: 10px;
+    background-color: #3f3f3f;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-box input{
+    all: unset;
+    font-size: 16px;
+    color: #fff;
+    width: 300px;
+    margin-left: 10px;
+}
+.input-box button{
+    all: unset;
+    background-color: #8d8d8d;
+    padding: 5px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    width: 30px;
+    border: 2px solid #fff;
+}
+
+.profile-container{
+    margin: 30px 10px 15px;
+    background-color: #3f3f3f;
+    border-radius: 30px;
+    padding: 20px;
+}
+.user-data{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-data .user-img img{
+    border-radius: 50%;
+    width: 130px;
+}
+.user-data .user-text{
+    width: 180px;
+}
+.user-data .user-text h2{
+    font-size: 25px;
+}
+.user-data .user-text p{
+    font-size: 14px;
+}
+
+.user-links{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user-links a{
+    all: unset;
+    cursor: pointer;
+    background-color: #8d8d8d;
+    padding: 5px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    border: 2px solid #fff;
+}
